@@ -17,5 +17,8 @@
     "url": "https://github.com/jlguijarro/React-Jul-Aug-2021-/issues"
   },
   "homepage": "https://github.com/jlguijarro/React-Jul-Aug-2021-#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
 }
