@@ -25,9 +25,10 @@ class Dishdetail extends Component {
             <div>
                 <ul className= "list-unstyled">
                     <li>{elem.comment}</li>
-                    <li>--{elem.author}</li>
+                    <li>--{elem.author} , {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(elem.date)))}</li>
                 </ul>
             </div>
+            
         );
 
         return (
